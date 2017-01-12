@@ -49,6 +49,20 @@ test.html
 * Move the mouse pointer over the tile and it will glow.
 * Move the pointer over the img and it will rotate.
 
+## Why ?
+There might be a lot of questions while using the widget. Here are a few which I can anser :)
+
+1. Why did I chose naked JavaScript?
+	I chose this because of a couple of reasons:
+	* Most of the frameworks are an overkill
+	* This as per me is a small nut to crack, which can be easily cracked with simple JS
+	* I love JS as it is. (yup totally subjective :) )
+
+2. Why did I not use ES6?
+	* Even though I am familiar with ES6, I hate the fact that it has to be transcompiled as of yet
+
+3. Why did I not use flex-box for centering?
+	* Cause as per the requriment, it has to be supported by IE9.
 
 ## Acknowledgments
 
