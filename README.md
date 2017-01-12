@@ -44,7 +44,7 @@ test.html
 * This widget might not get centered in the container 
 * I do not have IE9 at my end, so could not really test there.
 
-## Hidden features (not a lot - fortune in these cookies)
+## Hidden features (not a lot the fortune in these cookies:( )
 
 * Move the mouse pointer over the tile and it will glow.
 * Move the pointer over the img and it will rotate.
