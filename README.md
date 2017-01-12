@@ -26,6 +26,13 @@ You already should have a working website with an html file, where this widget h
 
 Open the file host's html file (via localhost/directly) in the browser and you should see a loader for this widget.
 
+## Example host file included 
+
+This project includes a sample host file i.e.:
+```
+test.html
+```
+
 ## Behind the scenes
 
 1. The widget asks the user for the permission for getting the user's (actually it is the device's) location.
