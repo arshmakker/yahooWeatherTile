@@ -1,0 +1,102 @@
+.cvent-container {
+  font-size: 16px;
+  font-family: Helvetica, Arial, Sans-Serif;
+  position: relative;
+  margin: 0 auto;
+}
+
+.cvent-weather-tile {
+  position: absolute;
+  background: white;
+  box-shadow: 0.5rem 0.5rem 0.5rem #888888;
+  width: 310px;
+  height: 160px;  
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,100%);
+  border: 1px solid #888888;
+  border-radius: 12px;
+  padding: 1rem;
+  box-sizing: border-box;
+  display: inline-block;
+  transition:all 0.3s ease;
+}
+
+.cvent-weather-title{
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.cvent-weather-today{
+  margin-top:1rem;
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+  font-size: 3rem;
+}
+
+.cvent-today-img{
+  vertical-align: middle;
+  display: inline-block;
+  text-align: center;
+  line-height: 0.7rem;
+  position: relative;
+}
+
+ul.cvent-weather-forecast{
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  font-size: 0.552rem
+}
+li.cvent-weather-day{
+  float: left;
+  text-align: center;
+  border-left: 1px dotted #888888;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+
+li.cvent-weather-day:first-child {
+  border: none;
+}
+
+.cvent-today-text{
+  display: block;
+  font-size:0.5rem;
+  font-weight: initial;
+}
+
+/*for fun*/
+.cvent-weather-tile:hover{
+  box-shadow: 0.5rem 0.5rem 0.5rem black;
+}
+
+.cvent-today-img img:hover{
+  -webkit-animation:spin 4s linear ;
+  -moz-animation:spin 4s linear ;
+  animation:spin 4s linear ;
+
+}
+
+.loader {
+  border: 16px solid #f3f3f3; /* Light grey */
+  border-top: 16px solid #3498db; /* Blue */
+  border-radius: 50%;
+  width: 120px;
+  height: 120px;
+  animation: spin 2s linear infinite;
+  position: absolute;
+  top: 12rem;
+  left: 35rem;
+  padding: 1rem;
+  box-sizing: border-box;
+  display: inline-block;
+
+}
+
+
+/*just for fun*/
+@-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
+@-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg);  } }
+@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
+
