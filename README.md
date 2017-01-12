@@ -36,12 +36,12 @@ test.html
 ## Behind the scenes
 
 1. The widget asks the user for the permission for getting the user's (actually it is the device's) location.
-2. Once the permission is given, the widget calls the yahoo weather API for weather forcast
-3. When the yahoo API replies, the wdiget displays the details on the browser.
+2. Once the permission is given, the widget calls the yahoo weather API for weather forecast
+3. When the yahoo API replies, the widget displays the details on the browser.
 
 ## Known bugs
 
-* This widget might not get centered in the container 
+* This widget might not get cantered in the container 
 * I do not have IE9 at my end, so could not really test there.
 
 ## Hidden features (not a lot the fortune in these cookies:( )
@@ -50,7 +50,7 @@ test.html
 * Move the pointer over the img and it will rotate.
 
 ## Why ?
-There might be a lot of questions while using the widget. Here are a few which I can anser :)
+There might be a lot of questions while using the widget. Here are a few which I can answer :)
 
 1. Why did I chose naked JavaScript?
 	I chose this because of a couple of reasons:
@@ -61,8 +61,8 @@ There might be a lot of questions while using the widget. Here are a few which I
 2. Why did I not use ES6?
 	* Even though I am familiar with ES6, I hate the fact that it has to be transcompiled as of yet
 
-3. Why did I not use flex-box for centering?
-	* Cause as per the requriment, it has to be supported by IE9.
+3. Why did I not use flex-box for centring?
+	* Cause as per the requirement, it has to be supported by IE9.
 
 ## Acknowledgments
 
