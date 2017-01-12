@@ -1,11 +1,11 @@
-.cvent-container {
+.arsh-container {
   font-size: 16px;
   font-family: Helvetica, Arial, Sans-Serif;
   position: relative;
   margin: 0 auto;
 }
 
-.cvent-weather-tile {
+.arsh-weather-tile {
   position: absolute;
   background: white;
   box-shadow: 0.5rem 0.5rem 0.5rem #888888;
@@ -22,19 +22,19 @@
   transition:all 0.3s ease;
 }
 
-.cvent-weather-title{
+.arsh-weather-title{
   font-weight: bold;
   font-size: 1.2rem;
 }
 
-.cvent-weather-today{
+.arsh-weather-today{
   margin-top:1rem;
   margin-bottom: 0.5rem;
   font-weight: bold;
   font-size: 3rem;
 }
 
-.cvent-today-img{
+.arsh-today-img{
   vertical-align: middle;
   display: inline-block;
   text-align: center;
@@ -42,13 +42,13 @@
   position: relative;
 }
 
-ul.cvent-weather-forecast{
+ul.arsh-weather-forecast{
   list-style-type: none;
   padding: 0;
   margin: 0;
   font-size: 0.552rem
 }
-li.cvent-weather-day{
+li.arsh-weather-day{
   float: left;
   text-align: center;
   border-left: 1px dotted #888888;
@@ -56,22 +56,22 @@ li.cvent-weather-day{
   padding-right: 0.5rem;
 }
 
-li.cvent-weather-day:first-child {
+li.arsh-weather-day:first-child {
   border: none;
 }
 
-.cvent-today-text{
+.arsh-today-text{
   display: block;
   font-size:0.5rem;
   font-weight: initial;
 }
 
 /*for fun*/
-.cvent-weather-tile:hover{
+.arsh-weather-tile:hover{
   box-shadow: 0.5rem 0.5rem 0.5rem black;
 }
 
-.cvent-today-img img:hover{
+.arsh-today-img img:hover{
   -webkit-animation:spin 4s linear ;
   -moz-animation:spin 4s linear ;
   animation:spin 4s linear ;

@@ -93,8 +93,8 @@ function _errorInRetrieval(error){
  * Aligning the Tile vertically Center
  */
  function _alignTileVerticallyCenter(){
-  var tileContainer = document.querySelector('.cvent-container');
-  var weatherTile = document.querySelector('.cvent-weather-tile');
+  var tileContainer = document.querySelector('.arsh-container');
+  var weatherTile = document.querySelector('.arsh-weather-tile');
   // Since the css does allow to center the tile with unknown width
   // but not with uknown height, hence vertical alignment is done via 
   // JS

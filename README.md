@@ -18,7 +18,7 @@ You already should have a working website with an html file, where this widget h
 
 ```
 <script type='text/javascript'>
-    document.write('<div class="cvent-container"><div class="loader"></div></div>');
+    document.write('<div class="arsh-container"><div class="loader"></div></div>');
     document.write('<script type="text/JavaScript" src="weatherBootstrap.js"></script');
 </script>
 ```
