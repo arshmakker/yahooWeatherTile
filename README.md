@@ -43,7 +43,7 @@ test.html
 
 One of the most important features of a web widget is the lightness with which it can fly.
 This widget is a light one and flies with only 20KB
-(you can check the fromt he git repo)
+(you can check the size from the git repo)
 ## Known bugs
 
 * This widget might not get cantered in the container 
